@@ -21,7 +21,7 @@ body {
 
 .main-header {
     background: #092635;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
     width: 100%;
     position: fixed;
     top: 0;
@@ -32,9 +32,9 @@ body {
 .main-header__brand {
     color: #9EC8B9;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 1.5rem;
     font-weight: bold;
-    height: 25px;
+    height: 1.5rem;
     display: inline-block;
 }
 
@@ -56,7 +56,7 @@ body {
 
 .main-nav__items {
     margin: 0;
-    padding: 0;
+    padding: 0.4rem 0;
     list-style: none;
 }
 
@@ -67,8 +67,8 @@ body {
 .main-nav__item a {
     text-decoration: none;
     color: #9EC8B9;
-    margin: 0px 20px;
-    padding: 5px 0px;
+    margin: 0 1rem;
+    padding: 0.4rem 0;
     font-weight: bold;
 }
 
@@ -82,7 +82,7 @@ body {
     background: #1B4242;
     color: #9EC8B9;
     border-radius: 8px;
-    padding: 8px 16px;
+    padding: 0.5rem 1rem;
 }
 
 .main-nav__item--cta a:hover,
@@ -94,8 +94,8 @@ body {
 
 .main-footer {
     background: #092635;
-    padding: 32px;
-    margin-top: 48px;
+    padding: 2rem;
+    margin-top: 3rem;
 }
 
 .main-footer ul {
@@ -107,7 +107,7 @@ body {
 
 .main-footer ul li {
     display: inline-block;
-    margin: 0 16px;
+    margin: 0 1rem;
 }
 
 .main-footer ul li a {

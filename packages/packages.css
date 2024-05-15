@@ -1,5 +1,5 @@
 main {
-    padding-top: 32px;
+    padding-top: 2rem;
 }
 
 .background {
@@ -16,26 +16,26 @@ main {
     border-left: none;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
-    margin: 20px 0;
+    margin: 2rem 0;
     width: 60%;
     position: relative;
 }
 
 .plan__badge {
     position: absolute;
-    margin: 20px;
+    margin: 1.3rem;
     top: 0;
     right: 0;
     color: black !important;
     background: #eef11b;
-    padding: 10px;
+    padding: 0.6rem;
     border: #1B4242 solid 2px;
     border-radius: 20px;
     font-size: 15px;
 }
 
 .plan a {
-    padding: 20px;
+    padding: 1.3rem;
     text-decoration: none;
     display: block;
 }
@@ -53,8 +53,8 @@ main {
     background: rgba(236, 236, 236, 0.9);
     border: #1B4242 1px solid;
     border-radius: 10px;
-    padding: 10px;
-    font-size: 20px;
+    padding: 0.6rem;
+    font-size: 1.3rem;
 }
 
 .plan:active,
