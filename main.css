@@ -17,8 +17,20 @@
     color: white;
     font-family: "Roboto Slab", serif;
     position: absolute;
-    bottom: 15%;
+    bottom: 5%;
     left: 2%;
+    font-size: 1.6rem;
+    margin: 0;
+}
+
+@media(min-width:40rem) {
+    #product-overview {
+        height: 40vh;
+    }
+
+    #product-overview h1 {
+        font-size: 3rem;
+    }
 }
 
 .section-title {
