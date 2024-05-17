@@ -7,7 +7,9 @@ var mobileNav = document.querySelector(".mobile-nav");
 
 for (i = 0; i < selectPlanButtons.length; i++) {
   selectPlanButtons[i].addEventListener("click", function () {
-    modal.style.display = "block";
+    if (modal) {
+      modal.style.display = "block";
+    }
     backdrop.style.display = "block";
   });
 }
@@ -17,11 +19,15 @@ backdrop.addEventListener("click", function () {
   closeModal();
 });
 
-modalNoButton.addEventListener("click", closeModal);
+if (modalNoButton) {
+  modalNoButton.addEventListener("click", closeModal);
+}
 
 function closeModal() {
   backdrop.style.display = "none";
-  modal.style.display = "none";
+  if (modal) {
+    modal.style.display = "none";
+  }
 }
 
 toggleButton.addEventListener("click", function () {
