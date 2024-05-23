@@ -8,6 +8,11 @@ body {
     background: #ececec;
 }
 
+main {
+    min-height: calc(100vh - 4rem - 8rem);
+    margin-top: 4rem;
+}
+
 .backdrop {
     position: fixed;
     display: none;
@@ -136,16 +141,19 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
+    height: 1rem;
 }
 
 .main-footer ul li {
     /* display: inline-block; */
     margin: 1rem 0;
+    height: 100%;
 }
 
 .main-footer ul li a {
     color: #ececec;
     text-decoration: none;
+    height: 1rem;
 }
 
 .main-footer ul li a:hover,
