@@ -99,3 +99,30 @@ main {
 #premium h2 {
     color: darkgrey;
 }
+
+@media (min-width:40rem) {
+    main {
+        max-width: 70rem;
+        margin: 3rem auto;
+    }
+}
+
+@media (min-width:70rem) {
+    .plan {
+        border-left: #1B4242 solid 3px;
+    }
+
+    .plan:active,
+    .plan:hover {
+        border-left: #f12f2f solid 3px;
+    }
+
+    #free {
+        border-right: #1B4242 solid 3px;
+    }
+
+    #free:active,
+    #free:hover {
+        border-right: #f12f2f solid 3px;
+    }
+}
