@@ -9,7 +9,7 @@ body {
 }
 
 main {
-    min-height: calc(100vh - 4rem - 8rem);
+    min-height: calc(100vh - 4rem - 8.3rem);
     margin-top: 4rem;
 }
 
@@ -141,7 +141,6 @@ main {
     margin: 0;
     padding: 0;
     text-align: center;
-    height: 1rem;
 }
 
 .main-footer ul li {
@@ -153,7 +152,6 @@ main {
 .main-footer ul li a {
     color: #ececec;
     text-decoration: none;
-    height: 1rem;
 }
 
 .main-footer ul li a:hover,
