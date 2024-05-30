@@ -19,19 +19,23 @@ main {
     margin: 2rem 0;
     width: 60%;
     position: relative;
+    overflow: hidden;
 }
 
 .plan__badge {
     position: absolute;
-    margin: 1.3rem;
+    margin: 0;
     top: 0;
     right: 0;
     color: black !important;
     background: #eef11b;
     padding: 0.6rem;
     border: #1B4242 solid 2px;
-    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
     font-size: 1rem;
+    width: 15rem;
+    text-align: center;
+    transform: rotateZ(45deg) translateX(4.5rem) translateY(-1rem);
 }
 
 .plan a {
