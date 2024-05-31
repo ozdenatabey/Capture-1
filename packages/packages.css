@@ -66,6 +66,7 @@ main {
     box-shadow: 2px 2px 10px 0 black;
     border: #f12f2f solid 3px;
     border-left: none;
+    animation: move-up 200ms forwards;
 }
 
 .clear-fix {
@@ -129,5 +130,15 @@ main {
     #free:active,
     #free:hover {
         border-right: #f12f2f solid 3px;
+    }
+}
+
+@keyframes move-up {
+    from {
+        transform: translateY(0);
+    }
+
+    to {
+        transform: translateY(-10px);
     }
 }
