@@ -218,7 +218,11 @@
 
 .modal {
     position: fixed;
-    display: none;
+    transform: translateY(2rem);
+    opacity: 0;
+    transition: opacity 1s ease-in-out, transform 1s;
+    /* display: none; */
+    visibility: hidden;
     z-index: 10;
     top: 20%;
     left: 30%;
